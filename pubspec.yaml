@@ -1,0 +1,46 @@
+name: expense_tracker
+publish_to: none
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+workspace:
+  - app
+
+dev_dependencies:
+  melos: ^7.4.0
+
+melos:
+  command:
+    version:
+      message: "chore(release): publish packages"
+
+  scripts:
+    build:
+      run: dart run build_runner build --delete-conflicting-outputs
+      concurrency: 4
+      packageFilters:
+        dependsOn: build_runner
+
+    format:
+      run: dart format .
+      description: Run `dart format` for all packages.
+
+    analyze:
+      run: dart analyze . --fatal-infos --fatal-warnings
+      description: Run `dart analyze` across all packages.
+
+    test:
+      run: flutter test
+      description: Run `flutter test` for all packages.
+      packageFilters:
+        dirExists: test
+        dependsOn: flutter_test
+
+    # Dependency Management
+    # To inject a package into a specific workspace folder: dart run melos run install -- --package="get_it" --target="demo_package"
+    # To inject a package into all workspace folders: dart run melos run install -- --package="get_it" --target="all"
+
+    install:
+      run: dart scripts/add_package.dart
+      description: Add a package to specific workspace (--target=<name>) or all workspaces (--target=all).

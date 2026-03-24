@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Mac OS
+.DS_Store
+
+# Dart/Flutter
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+/build/
+**/doc/api/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# Android
+/android/app/src/main/gen/
+/android/local.properties
+/android/app/build
+/android/build-cache
+/android/build
+
+# iOS
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/flutter_assets/
+/ios/Pods/
+/ios/.symlinks/
+
+# Web
+lib/generated_plugin_registrant.dart

@@ -1,0 +1,22 @@
+{
+  "name": "expense-tracker-api",
+  "version": "1.0.0",
+  "description": "Backend API for the Expense Tracker App",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "expense",
+    "tracker",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.3"
+  }
+}

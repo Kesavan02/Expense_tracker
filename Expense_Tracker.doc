@@ -1,0 +1,2051 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882" xmlns="http://www.w3.org/TR/REC-html40"><head><meta http-equiv=Content-Type  content="text/html; charset=utf-8" ><meta name=ProgId  content=Word.Document ><meta name=Generator  content="Microsoft Word 14" ><meta name=Originator  content="Microsoft Word 14" ><link rel=File-List  href="Expense_Tracker_Specification_7_days.files/filelist.xml" ><title></title><!--[if gte mso 9]><xml><o:DocumentProperties><o:Author>HP</o:Author><o:LastAuthor>Kesavan K</o:LastAuthor><o:Revision>1</o:Revision><o:Pages>2</o:Pages><o:Lines>1</o:Lines><o:Paragraphs>1</o:Paragraphs></o:DocumentProperties><o:CustomDocumentProperties><o:KSOProductBuildVer dt:dt="string" >1033-12.2.0.23196</o:KSOProductBuildVer><o:ICV dt:dt="string" >A7B453E380F346869C2DA5974CC45CD5_12</o:ICV></o:CustomDocumentProperties></xml><![endif]--><!--[if gte mso 9]><xml><o:OfficeDocumentSettings></o:OfficeDocumentSettings></xml><![endif]--><!--[if gte mso 9]><xml><w:WordDocument><w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel><w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery><w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery><w:DocumentKind>DocumentNotSpecified</w:DocumentKind><w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing><w:View>Web</w:View><w:Compatibility></w:Compatibility><w:Zoom>0</w:Zoom></w:WordDocument></xml><![endif]--><!--[if gte mso 9]><xml><w:LatentStyles DefLockedState="false"  DefUnhideWhenUsed="true"  DefSemiHidden="true"  DefQFormat="false"  DefPriority="99"  LatentStyleCount="260" >
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="Normal" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="heading 9" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index 9" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toc 9" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Normal Indent" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="footnote text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="annotation text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="header" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="footer" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="index heading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="caption" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="table of figures" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="envelope address" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="envelope return" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="footnote reference" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="annotation reference" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="line number" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="page number" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="endnote reference" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="endnote text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="table of authorities" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="macro" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="toa heading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Bullet 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Number 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="Title" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Closing" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Signature" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Default Paragraph Font" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text Indent" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="List Continue 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Message Header" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="Subtitle" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Salutation" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Date" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text First Indent" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text First Indent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Note Heading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text Indent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Body Text Indent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Block Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Hyperlink" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="FollowedHyperlink" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="Strong" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  QFormat="true"  Name="Emphasis" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Document Map" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Plain Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="E-mail Signature" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Normal (Web)" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Acronym" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Address" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Cite" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Code" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Definition" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Keyboard" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Preformatted" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Sample" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Typewriter" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="HTML Variable" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Normal Table" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="annotation subject" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="No List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="1 / a / i" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="1 / 1.1 / 1.1.1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Article / Section" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Simple 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Simple 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Simple 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Classic 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Classic 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Classic 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Classic 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Colorful 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Colorful 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Colorful 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Columns 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 7" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table List 8" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table 3D effects 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table 3D effects 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table 3D effects 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Contemporary" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Elegant" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Professional" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Subtle 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Subtle 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Web 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Web 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Web 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Balloon Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Grid" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="0"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Table Theme" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Placeholder Text" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="No Spacing" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="60"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Shading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="61"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="62"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Light Grid" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="63"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="64"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Shading 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="65"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="66"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium List 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="67"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="68"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="69"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Medium Grid 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="70"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Dark List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="71"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Shading" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="72"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful List" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="73"  SemiHidden="false"  UnhideWhenUsed="false"  Name="Colorful Grid" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Shading Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light List Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Grid Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 1 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 2 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 1 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="List Paragraph" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Quote" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Intense Quote" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 2 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 1 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 2 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 3 Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Dark List Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Shading Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful List Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Grid Accent 1" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Shading Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light List Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Grid Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 1 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 2 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 1 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 2 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 1 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 2 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 3 Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Dark List Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Shading Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful List Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Grid Accent 2" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Shading Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light List Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Grid Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 1 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 2 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 1 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 2 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 1 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 2 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 3 Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Dark List Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Shading Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful List Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Grid Accent 3" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Shading Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light List Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Grid Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 1 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 2 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 1 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 2 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 1 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 2 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 3 Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Dark List Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Shading Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful List Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Grid Accent 4" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Shading Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light List Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Grid Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 1 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 2 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 1 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 2 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 1 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 2 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 3 Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Dark List Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Shading Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful List Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Grid Accent 5" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Shading Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light List Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Light Grid Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 1 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Shading 2 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 1 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium List 2 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 1 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 2 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Medium Grid 3 Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Dark List Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Shading Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful List Accent 6" ></w:LsdException>
+<w:LsdException Locked="false"  Priority="99"  SemiHidden="false"  Name="Colorful Grid Accent 6" ></w:LsdException>
+</w:LatentStyles></xml><![endif]--><style>
+@font-face{
+font-family:"Times New Roman";
+}
+
+@font-face{
+font-family:"宋体";
+}
+
+@font-face{
+font-family:"SimSun";
+}
+
+@font-face{
+font-family:"Arial";
+}
+
+@font-face{
+font-family:"Courier New";
+}
+
+@font-face{
+font-family:"Wingdings";
+}
+
+@font-face{
+font-family:"Wingdings";
+}
+
+@font-face{
+font-family:"monospace";
+}
+
+@list l0:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l0:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l0:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l0:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l0:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l0:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l0:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l0:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l0:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l1:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l1:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l1:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l1:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l1:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l1:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l1:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l1:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l1:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l2:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l2:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l2:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l2:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l2:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l2:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l2:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l2:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l2:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l3:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l3:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l3:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l3:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l3:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l3:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l3:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l3:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l3:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l4:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l4:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l4:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l4:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l4:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l4:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l4:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l4:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l4:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l5:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l5:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l5:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l5:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l5:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l5:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l5:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l5:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l5:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l6:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l6:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l6:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l6:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l6:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l6:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l6:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l6:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l6:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l7:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l7:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l7:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l7:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l7:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l7:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l7:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l7:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l7:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l8:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l8:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l8:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l8:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l8:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l8:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l8:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l8:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l8:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l9:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l9:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l9:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l9:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l9:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l9:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l9:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l9:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l9:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l10:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l10:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l10:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l10:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l10:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l10:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l10:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l10:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l10:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l11:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l11:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l11:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l11:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l11:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l11:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l11:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l11:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l11:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l12:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l12:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l12:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l12:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l12:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l12:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l12:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l12:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l12:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l13:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l13:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l13:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l13:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l13:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l13:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l13:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l13:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l13:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l14:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l14:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l14:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l14:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l14:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l14:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l14:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l14:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l14:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l15:level1{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:36.0000pt;
+mso-level-number-position:left;
+margin-left:36.0000pt;text-indent:-18.0000pt;tab-stops:blank 36.0000pt ;font-family:Arial;font-size:10.0000pt;}
+
+@list l15:level2{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"o";
+mso-level-tab-stop:72.0000pt;
+mso-level-number-position:left;
+margin-left:72.0000pt;text-indent:-18.0000pt;tab-stops:blank 72.0000pt ;font-family:'Courier New';font-size:10.0000pt;}
+
+@list l15:level3{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:108.0000pt;
+mso-level-number-position:left;
+margin-left:108.0000pt;text-indent:-18.0000pt;tab-stops:blank 108.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l15:level4{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:144.0000pt;
+mso-level-number-position:left;
+margin-left:144.0000pt;text-indent:-18.0000pt;tab-stops:blank 144.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l15:level5{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:180.0000pt;
+mso-level-number-position:left;
+margin-left:180.0000pt;text-indent:-18.0000pt;tab-stops:blank 180.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l15:level6{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:216.0000pt;
+mso-level-number-position:left;
+margin-left:216.0000pt;text-indent:-18.0000pt;tab-stops:blank 216.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l15:level7{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:252.0000pt;
+mso-level-number-position:left;
+margin-left:252.0000pt;text-indent:-18.0000pt;tab-stops:blank 252.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l15:level8{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:288.0000pt;
+mso-level-number-position:left;
+margin-left:288.0000pt;text-indent:-18.0000pt;tab-stops:blank 288.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+@list l15:level9{
+mso-level-number-format:bullet;
+mso-level-suffix:tab;
+mso-level-text:"";
+mso-level-tab-stop:324.0000pt;
+mso-level-number-position:left;
+margin-left:324.0000pt;text-indent:-18.0000pt;tab-stops:blank 324.0000pt ;font-family:Wingdings;font-size:10.0000pt;}
+
+p.MsoNormal{
+mso-style-name:Normal;
+mso-style-parent:"";
+margin-top:0.0000pt;
+margin-right:0.0000pt;
+margin-bottom:0.0000pt;
+margin-left:0.0000pt;
+text-align:left;
+font-family:Arial;
+font-size:12.0000pt;
+}
+
+h1{
+mso-style-name:"Heading 1";
+mso-style-next:Normal;
+margin-top:5.0000pt;
+margin-bottom:5.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:Arial;
+mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);
+font-weight:bold;
+font-size:24.0000pt;
+mso-font-kerning:22.0000pt;
+}
+
+h2{
+mso-style-name:"Heading 2";
+mso-style-next:Normal;
+margin-top:5.0000pt;
+margin-bottom:5.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:Arial;
+mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);
+font-weight:bold;
+font-size:18.0000pt;
+}
+
+h3{
+mso-style-name:"Heading 3";
+mso-style-next:Normal;
+margin-top:5.0000pt;
+margin-bottom:5.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:Arial;
+mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);
+font-weight:bold;
+font-size:13.5000pt;
+}
+
+h4{
+mso-style-name:"Heading 4";
+mso-style-next:Normal;
+margin-top:5.0000pt;
+margin-bottom:5.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:Arial;
+mso-fareast-font-family:SimSun;
+font-weight:bold;
+font-size:12.0000pt;
+}
+
+h5{
+mso-style-name:"Heading 5";
+mso-style-next:Normal;
+margin-top:5.0000pt;
+margin-bottom:5.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:Arial;
+mso-fareast-font-family:SimSun;
+font-weight:bold;
+font-size:10.0000pt;
+}
+
+h6{
+mso-style-name:"Heading 6";
+mso-style-next:Normal;
+margin-top:5.0000pt;
+margin-bottom:5.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:Arial;
+mso-fareast-font-family:SimSun;
+font-weight:bold;
+font-size:7.5000pt;
+}
+
+span.10{
+font-family:'Times New Roman';
+}
+
+span.15{
+font-family:Arial;
+}
+
+span.16{
+font-family:Arial;
+font-weight:bold;
+}
+
+span.17{
+font-family:monospace;
+font-size:10.0000pt;
+background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);
+}
+
+span.18{
+font-family:Arial;
+font-style:italic;
+}
+
+p.pre{
+mso-style-name:"HTML Preformatted";
+margin:0pt;
+margin-bottom:.0001pt;
+tab-stops:left blank 45.8000pt left blank 91.6000pt left blank 137.4000pt left blank 183.2000pt left blank 229.0000pt left blank 274.8000pt left blank 320.6000pt left blank 366.4000pt left blank 412.2000pt left blank 458.0000pt left blank 503.8000pt left blank 549.6000pt left blank 595.4000pt left blank 641.2000pt left blank 687.0000pt left blank 732.8000pt ;
+text-align:left;
+font-family:Arial;
+mso-fareast-font-family:SimSun;
+font-size:12.0000pt;
+}
+
+p.p{
+mso-style-name:"Normal \(Web\)";
+margin-top:5.0000pt;
+margin-right:0.0000pt;
+margin-bottom:5.0000pt;
+margin-left:0.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:Arial;
+font-size:12.0000pt;
+}
+
+p.21{
+mso-style-name:"HTML Preformatted Char";
+margin-top:0.0000pt;
+margin-right:0.0000pt;
+margin-bottom:0.0000pt;
+margin-left:0.0000pt;
+padding:0pt 0pt 0pt 0pt ;
+tab-stops:left blank 45.8000pt left blank 91.6000pt left blank 137.4000pt left blank 183.2000pt left blank 229.0000pt left blank 274.8000pt left blank 320.6000pt left blank 366.4000pt left blank 412.2000pt left blank 458.0000pt left blank 503.8000pt left blank 549.6000pt left blank 595.4000pt left blank 641.2000pt left blank 687.0000pt left blank 732.8000pt ;
+text-align:left;
+background:rgb(244,244,244);
+font-family:Arial;
+mso-fareast-font-family:SimSun;
+font-size:12.0000pt;
+}
+
+p.22{
+mso-style-name:"Normal \(Web\) Char";
+margin-top:5.0000pt;
+margin-right:0.0000pt;
+margin-bottom:5.0000pt;
+margin-left:0.0000pt;
+mso-margin-top-alt:auto;
+mso-margin-bottom-alt:auto;
+text-align:left;
+font-family:Arial;
+font-size:12.0000pt;
+}
+
+span.msoIns{
+mso-style-type:export-only;
+mso-style-name:"";
+text-decoration:underline;
+text-underline:single;
+color:blue;
+}
+
+span.msoDel{
+mso-style-type:export-only;
+mso-style-name:"";
+text-decoration:line-through;
+color:red;
+}
+
+table.MsoNormalTable{
+mso-style-name:"Table Normal";
+mso-style-parent:"";
+mso-style-noshow:yes;
+mso-tstyle-rowband-size:0;
+mso-tstyle-colband-size:0;
+mso-padding-alt:0.0000pt 5.4000pt 0.0000pt 5.4000pt;
+mso-para-margin:0pt;
+mso-para-margin-bottom:.0001pt;
+mso-pagination:widow-orphan;
+font-family:Arial;
+font-size:10.0000pt;
+mso-ansi-language:#0400;
+mso-fareast-language:#0400;
+mso-bidi-language:#0400;
+}
+@page{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}@page Section0{
+size:595.3000pt 841.9500pt;
+mso-header-margin:42.5500pt;
+mso-footer-margin:49.6000pt;
+}
+div.Section0{page:Section0;}</style></head><body style="tab-interval:21pt;" ><!--StartFragment--><div class="Section0" ><h1 align=center  style="mso-pagination:widow-orphan;text-align:center;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:24.0000pt;mso-font-kerning:22.0000pt;" ><font face="SimSun" >Project Specification: Expense Tracker App</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:24.0000pt;
+mso-font-kerning:22.0000pt;" ><o:p></o:p></span></b></h1><h2 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:18.0000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >1. Project Overview</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:18.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h2><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >A production-grade Expense Tracker application designed to help users monitor their financial health. The system includes dual-role interfaces (Admin and User) and features offline-first capabilities, strict categorization, and visual budgeting tools.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h2 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:18.0000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >2. Technical Stack</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:18.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h2><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >The application adopts a modern, highly scalable architecture utilizing a monorepo approach for the frontend and a robust NoSQL backend.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Frontend (Mobile)</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l12 level1 lfo1;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Framework:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Flutter</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l12 level1 lfo1;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Workspace Management:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Melos (Monorepo Architecture)</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l12 level1 lfo1;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >State Management:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;BLoC (Business Logic Component)</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l12 level1 lfo1;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Networking:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Dio (HTTP client with interceptors)</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l12 level1 lfo1;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Dependency Injection:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;GetIt (Service Locator)</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l12 level1 lfo1;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Local Storage/Offline Cache:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Hive (Fast, lightweight NoSQL database for Flutter)</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Backend & Database</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l3 level1 lfo2;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Server:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Node.js (Express.js or NestJS recommended)</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l3 level1 lfo2;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Database:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;MongoDB</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l3 level1 lfo2;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Authentication:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;JWT (JSON Web Tokens) with Email/Password</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="mso-pagination:widow-orphan;text-align:center;" ><hr size="2"  width="100%"  align=center ></p><h2 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:18.0000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >3. User Roles & Interfaces</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:18.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h2><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >3.1. Regular User (End User)</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Focuses on tracking personal income, expenses, and managing monthly budgets.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l11 level1 lfo3;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Landing Interface:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;User Home Screen.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l11 level1 lfo3;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Permissions:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Can only view, create, and manage their own financial data and profile.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >3.2. Administrator</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Focuses on system oversight and general app statistics.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l0 level1 lfo4;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Landing Interface:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Admin Dashboard.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l0 level1 lfo4;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Permissions:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Can view system-wide metrics (Total registered users, active sessions), manage default system-wide categories, and handle user support. </span><i><span class="18"  style="mso-spacerun:'yes';font-family:Arial;font-style:italic;" >(Cannot see specific personal transactions of users for privacy).</span></i><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="mso-pagination:widow-orphan;text-align:center;" ><hr size="2"  width="100%"  align=center ></p><h2 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:18.0000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >4. Feature Requirements</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:18.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h2><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >4.1. Core Features (MVP)</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >1. Authentication & Profile</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l6 level1 lfo5;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Sign up / Login:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Standard Email and Password authentication mechanism.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l6 level1 lfo5;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Profile Management:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:72.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 72.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l6 level2 lfo6;" ><![if !supportLists]><span style="font-family:'Courier New';mso-fareast-font-family:Arial;font-size:10.0000pt;
+mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >o<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Update Avatar/Profile Picture.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:72.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 72.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l6 level2 lfo6;" ><![if !supportLists]><span style="font-family:'Courier New';mso-fareast-font-family:Arial;font-size:10.0000pt;
+mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >o<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Set/change Currency Preference.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:72.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 72.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l6 level2 lfo6;" ><![if !supportLists]><span style="font-family:'Courier New';mso-fareast-font-family:Arial;font-size:10.0000pt;
+mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >o<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Set Date Format preference.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >2. User Home Screen & Transaction Management</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l1 level1 lfo7;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Financial Overview:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Prominent display of Total Balance, Total Income, and Total Expenses for the current month.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l1 level1 lfo7;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Recent Transactions:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;A scrollable list displaying the most recent financial activities.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l1 level1 lfo7;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Quick Add Button:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;A floating action button (FAB) accessible from the Home Screen to immediately open the "Add Transaction" screen.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >3. Admin Dashboard</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l4 level1 lfo8;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >System Overview:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;High-level metrics for the app (Total users, active sessions).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l4 level1 lfo8;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >App Management:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;UI to add/remove global default expense/income categories available to all users.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >4.2. Advanced Features</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >1. Category Budgeting & Visual Tracking</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l7 level1 lfo9;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Monthly Limits:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Ability to set custom monthly spending limits for specific individual categories (e.g., allocating $200 strictly for "Food").</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l7 level1 lfo9;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Visual Progress Bars:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Dynamic progress bars on the Home Screen indicating how much of the specific budget has been consumed. Colors change (e.g., green -&gt; yellow -&gt; red) as the user approaches or exceeds their limit.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="mso-pagination:widow-orphan;text-align:center;" ><hr size="2"  width="100%"  align=center ></p><h2 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:18.0000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >5. Architecture & Monorepo Structure (Melos)</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:18.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h2><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >To ensure this is a production-grade application, the Flutter codebase is separated into distinct packages using Melos.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >expense_tracker_workspace/</span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9500;&#9472;&#9472; apps/</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&#9492;&#9472;&#9472; expense_tracker_app/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Main Flutter app entry point</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9500;&#9472;&#9472; packages/</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&#9500;&#9472;&#9472; core/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Shared models, utils, theme, constants</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&#9500;&#9472;&#9472; api_client/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Dio client, interceptors, API endpoints</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&#9500;&#9472;&#9472; local_storage/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Hive setup, boxes, local data repositories</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&#9500;&#9472;&#9472; design_system/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Reusable UI widgets, typography, colors</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&#9492;&#9472;&#9472; features/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Independent feature packages</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9500;&#9472;&#9472; auth/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Login, Signup, BLoC</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9500;&#9472;&#9472; profile/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Currency, Date format, Avatar BLoC</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9500;&#9472;&#9472; dashboard/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Admin dashboard UI and logic</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9500;&#9472;&#9472; home/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# User home screen BLoC</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9500;&#9472;&#9472; transactions/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Add/Edit transactions</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9474; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&#9492;&#9472;&#9472; budgeting/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Budget limits and progress bar logic</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9500;&#9472;&#9472; melos.yaml &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Melos configuration and scripts</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;mso-font-kerning:0.0000pt;background:rgb(244,244,244);
+mso-shading:rgb(244,244,244);" ><o:p></o:p></span></p><p class=21  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" ><font face="Arial" >&#9492;&#9472;&#9472; backend/ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;# Node.js API source code</font></span><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+font-size:12.0000pt;mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="mso-pagination:widow-orphan;text-align:center;" ><hr size="2"  width="100%"  align=center ></p><h2 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:18.0000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >6. High-Level Backend Data Models (MongoDB)</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:18.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h2><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l13 level1 lfo10;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >1. Users:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;</span><span class="17"  style="mso-spacerun:'yes';font-family:monospace;font-size:10.0000pt;
+background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >_</span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >id</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >email</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >password</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;(Hashed), </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >role</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >preferences</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;(currency, dateFormat), </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >avatarUrl</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l13 level1 lfo10;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >2. Transactions:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;</span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >_id</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >userId</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >type</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;(INCOME/EXPENSE), </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >amount</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >categoryId</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >date</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >note</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l13 level1 lfo10;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >3. Categories:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;</span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >_id</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >name</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >icon</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >color</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >isGlobal</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >userId</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l13 level1 lfo10;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >4. Budgets:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;</span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >_id</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >userId</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >categoryId</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >limitAmount</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >month</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  align=center  style="mso-pagination:widow-orphan;text-align:center;" ><hr size="2"  width="100%"  align=center ></p><h2 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:18.0000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >7. Planning and Implementation Timeline</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:18.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h2><p class=22  style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >This phased approach guarantees that the foundational setup is solid before we build complex, interdependent features.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >Day 1: Project Setup, Foundation, Backend API & Auth</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l9 level1 lfo11;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Initialize version control (Git).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l9 level1 lfo11;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Setup Flutter workspace using </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >melos.yaml</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l9 level1 lfo11;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Generate package structure (</span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >apps/expense_tracker_app</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >packages/core</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >api_client</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >, </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >design_system</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l9 level1 lfo11;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Setup the Node.js backend environment and establish a connection to MongoDB.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >Day 2: Frontend Auth, Design System, & Routing</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l2 level1 lfo12;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Implement Mongoose schemas (Users, Transactions, Categories, Budgets).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l2 level1 lfo12;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Develop the backend Authentication API (Register, Login functions).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l2 level1 lfo12;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Implement JWT generation and middleware to protect backend routes.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >Day 3: Offline Storage Setup & Basic UI Setup</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l15 level1 lfo13;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Set up fundamental UI components in the </span><span class="17"  style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:monospace;
+font-size:10.0000pt;background:rgb(244,244,244);mso-shading:rgb(244,244,244);" >design_system</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;package (Colors, Typography, Reusable Buttons, Text Fields).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l15 level1 lfo13;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Implement Login and Sign up screens.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l15 level1 lfo13;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Create the Auth BLoC for state management.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l15 level1 lfo13;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Integrate frontend with backend Auth API using Dio (with GetIt for dependency injection).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >Day 4: User Home Screen, Admin Dashboard & Basic Features</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l14 level1 lfo14;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Implement routing logic that navigates a user to the Home Screen and an admin to the Admin Dashboard upon login.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l14 level1 lfo14;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Develop the Profile Management screen (Avatar, Currency preference, Date Format).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l14 level1 lfo14;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Connect the profile screen to backend endpoints to save user preferences.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >Day 5: Transaction Management (Core)</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l5 level1 lfo15;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Configure Hive for local storage to allow offline usage.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l5 level1 lfo15;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Create TypeAdapters for Transactions, Categories, and Budgets.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l5 level1 lfo15;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Write repository logic that prioritizes reading from Hive for fast loading, while silently fetching from the API to update the cache.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >Day 6: Advanced Budgeting & Visual Trackers</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l8 level1 lfo16;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >User Flow:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Build the UI for the User Home Screen. Setup the BLoC to calculate Total Balance, Total Income, and Total Expenses for the current month locally.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l8 level1 lfo16;" ><![if !supportLists]><span style="font-family:Arial;font-weight:bold;font-size:10.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><b><span class="16"  style="mso-spacerun:'yes';font-family:Arial;font-weight:bold;" >Admin Flow:</span></b><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >&nbsp;Build the Admin Dashboard UI to display total registered users and manage global system categories.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><h3 style="mso-pagination:widow-orphan;line-height:12.0000pt;" ><b><span style="mso-spacerun:'yes';font-family:SimSun;color:rgb(44,62,80);
+font-weight:bold;font-size:13.5000pt;mso-font-kerning:0.0000pt;" ><font face="SimSun" >Day 7: Quality Assurance & Final Polish</font></span></b><b><span style="mso-spacerun:'yes';font-family:Arial;mso-fareast-font-family:SimSun;
+color:rgb(44,62,80);font-weight:bold;font-size:13.5000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></b></h3><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l10 level1 lfo17;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Build the "Add Transaction" UI (triggered via Floating Action Button).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l10 level1 lfo17;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Implement form validation (Amount, Category dropdown, Date Picker, Note).</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p><p class=MsoNormal  style="margin-top:5.0000pt;margin-bottom:3.0000pt;margin-left:36.0000pt;
+mso-margin-top-alt:auto;text-indent:-18.0000pt;tab-stops:left blank 36.0000pt ;
+mso-pagination:widow-orphan;line-height:12.0000pt;mso-list:l10 level1 lfo17;" ><![if !supportLists]><span style="font-family:Arial;font-size:10.0000pt;mso-font-kerning:0.0000pt;" ><span style='mso-list:Ignore;' >&#183;<span>&nbsp;</span></span></span><![endif]><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" >Wire the form to the Transaction BLoC to save data to Hive instantly (for offline support) and orchestrate the Dio call to sync with the backend.</span><span style="mso-spacerun:'yes';font-family:Arial;font-size:12.0000pt;
+mso-font-kerning:0.0000pt;" ><o:p></o:p></span></p></div><!--EndFragment--></body></html>
