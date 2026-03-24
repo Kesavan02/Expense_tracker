@@ -10,7 +10,12 @@ void initAuthInjection() {
   // Try to register ApiClient if not already registered by core
   if (!sl.isRegistered<ApiClient>()) {
     sl.registerLazySingleton<ApiClient>(
-      () => ApiClient(baseUrl: const String.fromEnvironment('API_URL', defaultValue: 'http://192.168.1.9:5000')),
+      () => ApiClient(
+        baseUrl: const String.fromEnvironment(
+          'API_URL',
+          defaultValue: 'https://expense-tracker-tw5r.onrender.com',
+        ),
+      ),
     );
   }
 
@@ -21,9 +26,6 @@ void initAuthInjection() {
 
   // BLoC
   sl.registerFactory<AuthBloc>(
-    () => AuthBloc(
-      authRepository: sl(),
-      hiveService: sl<HiveService>(),
-    ),
+    () => AuthBloc(authRepository: sl(), hiveService: sl<HiveService>()),
   );
 }
