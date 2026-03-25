@@ -64,7 +64,7 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
                 left: 16.0,
                 right: 16.0,
                 bottom: 16.0,
-                top: MediaQuery.paddingOf(context).top + kToolbarHeight + 8.0,
+                top: MediaQuery.paddingOf(context).top + 16,
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -84,12 +84,16 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
                         hintText: '0.00',
                         keyboardType: TextInputType.number,
                         prefixIcon: Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 12),
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 12,
+                            vertical: 12,
+                          ),
                           child: Text(
                             symbol,
                             style: AppTypography.bodyLarge.copyWith(
                               fontWeight: FontWeight.bold,
                               color: AppColors.primary,
+                              fontSize: 18,
                             ),
                           ),
                         ),
@@ -172,6 +176,7 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
         Text('Category', style: AppTypography.bodySmall),
         const SizedBox(height: 12),
         GridView.builder(
+          padding: EdgeInsets.zero,
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
@@ -314,7 +319,11 @@ class _AddTransactionScreenState extends State<AddTransactionScreen> {
       }
 
       final amountInLocal = double.parse(_amountController.text);
-      final amountInUSD = CurrencyConverter.convert(amountInLocal, currency, 'USD');
+      final amountInUSD = CurrencyConverter.convert(
+        amountInLocal,
+        currency,
+        'USD',
+      );
 
       context.read<TransactionsBloc>().add(
         AddTransactionRequested(

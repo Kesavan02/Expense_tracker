@@ -39,9 +39,10 @@ class TransactionTile extends StatelessWidget {
             )
           : CircleAvatar(
               backgroundColor: _parseColor(transaction.category.color).withValues(alpha: 0.1),
-              child: Text(
-                transaction.category.icon.isNotEmpty ? transaction.category.icon : '💰',
-                style: TextStyle(color: _parseColor(transaction.category.color)),
+              child: CategoryIcon(
+                icon: transaction.category.icon,
+                color: _parseColor(transaction.category.color),
+                size: 20,
               ),
             ),
       title: Text(

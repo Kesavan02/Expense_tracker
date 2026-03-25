@@ -26,6 +26,12 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
   int _drilledMonth = DateTime.now().month;
   int _drilledWeek = 1;
 
+  // Interaction state
+  int? _hoveredIndex;
+  double _hoveredIncome = 0.0;
+  double _hoveredExpense = 0.0;
+  String? _hoveredLabel;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -94,7 +100,14 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
                               final currency = authState is AuthAuthenticated
                                   ? authState.user.currency
                                   : 'USD';
-                              return _buildChart(transactions, currency);
+                              return Column(
+                                children: [
+                                  _buildDataDisplay(currency),
+                                  Expanded(
+                                    child: _buildChart(transactions, currency),
+                                  ),
+                                ],
+                              );
                             },
                           ),
                         ),
@@ -118,7 +131,6 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
     final surfaceColor = isDark
         ? Colors.white.withValues(alpha: 0.07)
         : Colors.black.withValues(alpha: 0.05);
-
 
     // Breadcrumb label
     final String breadcrumb;
@@ -253,7 +265,6 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
     );
   }
 
-
   Widget _buildChart(List<TransactionModel> transactions, String currency) {
     final groupedData = _groupTransactions(transactions, currency);
 
@@ -333,33 +344,54 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
                     getTooltipColor: (_) => Theme.of(context).cardColor,
                   ),
                   touchCallback: (event, response) {
-                    if (!event.isInterestedForInteractions ||
-                        response == null ||
-                        response.spot == null) {
-                      return;
+                    final index = response?.spot?.touchedBarGroupIndex;
+
+                    if (index != null && index != _hoveredIndex) {
+                      setState(() {
+                        _hoveredIndex = index;
+                        _hoveredIncome = groupedData.values.elementAt(
+                          index,
+                        )['income']!;
+                        _hoveredExpense = groupedData.values.elementAt(
+                          index,
+                        )['expense']!;
+                        _hoveredLabel = titles[index];
+                      });
+                    } else if (index == null && _hoveredIndex != null) {
+                      setState(() {
+                        _hoveredIndex = null;
+                        _hoveredLabel = null;
+                      });
                     }
-                    if (event is FlTapUpEvent) {
-                      final index = response.spot!.touchedBarGroupIndex;
-                      if (_selectedPeriod == AnalysisPeriod.yearly) {
+
+                    // We handle various "up" events to ensure reliable interaction across platforms.
+                    if (event is FlTapUpEvent ||
+                        event is FlPanEndEvent ||
+                        event is FlLongPressEnd) {
+                      if (index != null) {
                         final income =
                             groupedData.values.elementAt(index)['income'] ?? 0;
                         final expense =
                             groupedData.values.elementAt(index)['expense'] ?? 0;
+
                         if (income > 0 || expense > 0) {
-                          setState(() {
-                            _selectedPeriod = AnalysisPeriod.monthly;
-                            _drilledMonth = index + 1;
-                          });
-                        }
-                      } else if (_selectedPeriod == AnalysisPeriod.monthly) {
-                        final income =
-                            groupedData.values.elementAt(index)['income'] ?? 0;
-                        final expense =
-                            groupedData.values.elementAt(index)['expense'] ?? 0;
-                        if (income > 0 || expense > 0) {
-                          setState(() {
-                            _selectedPeriod = AnalysisPeriod.weekly;
-                            _drilledWeek = index + 1;
+                          // Use microtask or small delay for navigation to allow
+                          // the gesture system to finish the current frame.
+                          Future.delayed(Duration.zero, () {
+                            if (!mounted) return;
+                            setState(() {
+                              if (_selectedPeriod == AnalysisPeriod.yearly) {
+                                _selectedPeriod = AnalysisPeriod.monthly;
+                                _drilledMonth = index + 1;
+                              } else if (_selectedPeriod ==
+                                  AnalysisPeriod.monthly) {
+                                _selectedPeriod = AnalysisPeriod.weekly;
+                                _drilledWeek = index + 1;
+                              }
+                              // Reset hover on navigation
+                              _hoveredIndex = null;
+                              _hoveredLabel = null;
+                            });
                           });
                         }
                       }
@@ -576,5 +608,78 @@ class _AnalysisScreenState extends State<AnalysisScreen> {
     }
 
     return groupedData;
+  }
+
+  Widget _buildDataDisplay(String currency) {
+    if (_hoveredLabel == null) {
+      return Padding(
+        padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 8),
+        child: Text(
+          'Tap a bar to see details',
+          style: AppTypography.bodySmall.copyWith(
+            color: Colors.white.withValues(alpha: 0.5),
+            fontStyle: FontStyle.italic,
+          ),
+        ),
+      );
+    }
+
+    final isGain = _hoveredIncome >= _hoveredExpense;
+    final net = _hoveredIncome - _hoveredExpense;
+
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 24.0, vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Text(
+                _hoveredLabel!,
+                style: AppTypography.bodyLarge.copyWith(
+                  fontWeight: FontWeight.bold,
+                  color: AppColors.primary,
+                ),
+              ),
+              const Spacer(),
+              Text(
+                '${net >= 0 ? '+' : ''}${net.toInt()} $currency',
+                style: AppTypography.bodyMedium.copyWith(
+                  fontWeight: FontWeight.bold,
+                  color: isGain ? AppColors.success : AppColors.error,
+                ),
+              ),
+            ],
+          ),
+          const SizedBox(height: 4),
+          Row(
+            children: [
+              _buildMiniValue('Income', _hoveredIncome, AppColors.success),
+              const SizedBox(width: 16),
+              _buildMiniValue('Expense', _hoveredExpense, AppColors.error),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _buildMiniValue(String label, double value, Color color) {
+    return Row(
+      children: [
+        Container(
+          width: 8,
+          height: 8,
+          decoration: BoxDecoration(color: color, shape: BoxShape.circle),
+        ),
+        const SizedBox(width: 4),
+        Text(
+          '$label: ${value.toInt()}',
+          style: AppTypography.bodySmall.copyWith(
+            color: Colors.white.withValues(alpha: 0.7),
+          ),
+        ),
+      ],
+    );
   }
 }

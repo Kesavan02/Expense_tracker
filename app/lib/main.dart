@@ -274,7 +274,10 @@ class _HomeScreenState extends State<HomeScreen> {
                                   tx.category.color.replaceFirst('#', '0xFF'),
                                 ),
                               ),
-                              child: Icon(Icons.category, color: Colors.white),
+                              child: CategoryIcon(
+                                icon: tx.category.icon,
+                                color: Colors.white,
+                              ),
                             ),
                             title: Text(tx.category.name),
                             subtitle: Text(
@@ -634,7 +637,10 @@ class _DashboardScreenState extends State<DashboardScreen> {
                             backgroundColor: Color(
                               int.parse(cat.color.replaceFirst('#', '0xFF')),
                             ),
-                            child: Icon(Icons.category, color: Colors.white),
+                            child: CategoryIcon(
+                              icon: cat.icon,
+                              color: Colors.white,
+                            ),
                           ),
                           title: Text(
                             cat.name,
@@ -717,6 +723,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     final nameController = TextEditingController();
     String selectedType = 'expense';
     String selectedColor = '#FF0000';
+    String selectedIcon = 'category';
 
     showDialog(
       context: context,
@@ -784,6 +791,33 @@ class _DashboardScreenState extends State<DashboardScreen> {
                       if (val != null) setState(() => selectedColor = val);
                     },
                   ),
+                  const SizedBox(height: 16),
+                  InkWell(
+                    onTap: () {
+                      showIconPicker(
+                        context,
+                        initialIcon: selectedIcon,
+                        onIconSelected: (icon) {
+                          setState(() => selectedIcon = icon);
+                        },
+                      );
+                    },
+                    child: InputDecorator(
+                      decoration: const InputDecoration(
+                        labelText: 'Select Icon',
+                        border: OutlineInputBorder(),
+                      ),
+                      child: Row(
+                        children: [
+                          CategoryIcon(icon: selectedIcon),
+                          const SizedBox(width: 12),
+                          Text(selectedIcon),
+                          const Spacer(),
+                          const Icon(Icons.search, size: 20),
+                        ],
+                      ),
+                    ),
+                  ),
                 ],
               ),
               actions: [
@@ -801,7 +835,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
                           id: '', // Will be assigned by API
                           name: nameController.text.trim(),
                           type: selectedType,
-                          icon: 'category',
+                          icon: selectedIcon,
                           color: selectedColor,
                         ),
                       ),
