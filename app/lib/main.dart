@@ -5,7 +5,7 @@ import 'package:design_system/design_system.dart';
 import 'package:auth/auth.dart' hide sl;
 import 'package:local_storage/local_storage.dart';
 import 'package:transactions/transactions.dart' hide sl;
-import 'package:budgeting/budgeting.dart' hide sl;
+import 'package:budgeting/budgeting.dart';
 import 'package:profile_settings/profile_settings.dart';
 import 'package:core/core.dart';
 import 'injection_container.dart' as di;
@@ -33,6 +33,9 @@ void main() async {
         ),
         BlocProvider(create: (context) => di.sl<TransactionsBloc>()),
         BlocProvider(create: (context) => di.sl<AdminBloc>()),
+        BlocProvider(
+          create: (context) => di.sl<BudgetBloc>()..add(LoadBudgets()),
+        ),
       ],
       child: const ExpenseTrackerApp(),
     ),
@@ -166,6 +169,15 @@ class _HomeScreenState extends State<HomeScreen> {
             },
           ),
           IconButton(
+            icon: const Icon(Icons.account_balance_wallet_outlined),
+            tooltip: 'View Budgets',
+            onPressed: () {
+              Navigator.of(
+                context,
+              ).push(MaterialPageRoute(builder: (_) => const BudgetOverviewScreen()));
+            },
+          ),
+          IconButton(
             icon: const Icon(Icons.person),
             onPressed: () {
               Navigator.of(
@@ -223,6 +235,8 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 children: [
                   _buildBalanceCard(balance, income, expenses, currency),
+                  const SizedBox(height: 24),
+                  _buildBudgetOverview(context),
                   const SizedBox(height: 24),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -349,9 +363,9 @@ class _HomeScreenState extends State<HomeScreen> {
                 style: const TextStyle(color: Colors.white70, fontSize: 13),
               ),
               Theme(
-                data: Theme.of(context).copyWith(
-                  canvasColor: AppColors.primary,
-                ),
+                data: Theme.of(
+                  context,
+                ).copyWith(canvasColor: AppColors.primary),
                 child: DropdownButtonHideUnderline(
                   child: DropdownButton<AnalysisPeriod>(
                     value: _selectedPeriod,
@@ -473,7 +487,7 @@ class _HomeScreenState extends State<HomeScreen> {
       switch (period) {
         case AnalysisPeriod.weekly:
           // Start of week (Sunday)
-          // DateTime.weekday: 1 = Mon, 7 = Sun. 
+          // DateTime.weekday: 1 = Mon, 7 = Sun.
           // If Sun (7), days to subtract = 0. If Mon (1), subtract 1.
           final daysToSubtract = today.weekday % 7;
           final weekStart = today.subtract(Duration(days: daysToSubtract));
@@ -518,6 +532,122 @@ class _HomeScreenState extends State<HomeScreen> {
       case AnalysisPeriod.yearly:
         return 'Year';
     }
+  }
+
+  Widget _buildBudgetOverview(BuildContext context) {
+    return BlocBuilder<BudgetBloc, BudgetState>(
+      builder: (context, budgetState) {
+        if (budgetState is! BudgetLoaded || budgetState.budgets.isEmpty) {
+          return const SizedBox.shrink();
+        }
+
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text(
+                  'Budget Overview',
+                  style: AppTypography.titleMedium.copyWith(
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).push(
+                      MaterialPageRoute(builder: (_) => const BudgetOverviewScreen()),
+                    );
+                  },
+                  child: const Text('View All'),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            SizedBox(
+              height: 120,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: budgetState.budgets.length,
+                itemBuilder: (context, index) {
+                  final budget = budgetState.budgets[index];
+                  return _buildSmallBudgetCard(context, budget);
+                },
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Widget _buildSmallBudgetCard(BuildContext context, BudgetModel budget) {
+    return BlocBuilder<AuthBloc, AuthState>(
+      builder: (context, authState) {
+        final currency = authState is AuthAuthenticated ? authState.user.currency : 'USD';
+        
+        return BlocBuilder<TransactionsBloc, TransactionsState>(
+          builder: (context, txState) {
+            double spent = 0;
+            if (txState is TransactionsLoaded) {
+              spent = txState.transactions
+                  .where((tx) =>
+                      tx.category.id == budget.category.id &&
+                      tx.date.isAfter(budget.startDate.subtract(const Duration(seconds: 1))) &&
+                      tx.date.isBefore(budget.endDate.add(const Duration(seconds: 1))))
+                  .fold(0.0, (sum, tx) => sum + tx.amount);
+            }
+
+            final amountInCurrency = CurrencyConverter.convert(budget.amount, 'USD', currency);
+            // final spentInCurrency = CurrencyConverter.convert(spent, 'USD', currency);
+            final percent = (spent / budget.amount).clamp(0.0, 1.0);
+            final color = Color(int.parse(budget.category.color.replaceFirst('#', '0xFF')));
+
+            return Container(
+              width: 200,
+              margin: const EdgeInsets.only(right: 12),
+              padding: const EdgeInsets.all(12),
+              decoration: BoxDecoration(
+                color: Theme.of(context).cardColor,
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(color: Colors.grey.withAlpha(25)),
+              ),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Row(
+                    children: [
+                      CategoryIcon(icon: budget.category.icon, size: 16, color: color),
+                      const SizedBox(width: 8),
+                      Expanded(
+                        child: Text(
+                          budget.category.name,
+                          style: AppTypography.bodySmall.copyWith(fontWeight: FontWeight.bold),
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ),
+                    ],
+                  ),
+                  const SizedBox(height: 12),
+                  LinearProgressIndicator(
+                    value: percent,
+                    backgroundColor: Colors.grey.withAlpha(25),
+                    color: percent >= 1.0 ? AppColors.error : color,
+                    minHeight: 4,
+                  ),
+                  const SizedBox(height: 8),
+                  Text(
+                    '${(percent * 100).toInt()}% of ${CurrencyFormatter.format(amountInCurrency, currency: currency)}',
+                    style: AppTypography.bodySmall.copyWith(fontSize: 10),
+                  ),
+                ],
+              ),
+            );
+          },
+        );
+      },
+    );
   }
 }
 

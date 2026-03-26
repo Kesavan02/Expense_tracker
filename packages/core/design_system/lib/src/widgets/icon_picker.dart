@@ -1,8 +1,6 @@
 import 'package:design_system/design_system.dart';
-import 'package:design_system/src/widgets/category_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:core/core.dart';
-import '../colors/app_colors.dart';
 
 class IconPicker extends StatefulWidget {
   final String? initialIcon;

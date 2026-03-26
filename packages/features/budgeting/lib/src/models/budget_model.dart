@@ -1,11 +1,10 @@
 import 'package:hive/hive.dart';
-import 'package:equatable/equatable.dart';
 import 'package:transactions/transactions.dart';
 
 part 'budget_model.g.dart';
 
-@HiveType(typeId: 2)
-class BudgetModel extends Equatable {
+@HiveType(typeId: 3)
+class BudgetModel {
   @HiveField(0)
   final String id;
   @HiveField(1)
@@ -27,24 +26,21 @@ class BudgetModel extends Equatable {
 
   factory BudgetModel.fromJson(Map<String, dynamic> json) {
     return BudgetModel(
-      id: json['_id'] as String,
-      category: CategoryModel.fromJson(json['category'] as Map<String, dynamic>),
+      id: json['_id'] ?? json['id'] ?? '',
+      category: CategoryModel.fromJson(json['category']),
       amount: (json['amount'] as num).toDouble(),
-      startDate: DateTime.parse(json['startDate'] as String),
-      endDate: DateTime.parse(json['endDate'] as String),
+      startDate: DateTime.parse(json['startDate']),
+      endDate: DateTime.parse(json['endDate']),
     );
   }
 
   Map<String, dynamic> toJson() {
     return {
-      '_id': id,
-      'category': category.toJson(),
+      'id': id,
+      'category': category.id,
       'amount': amount,
       'startDate': startDate.toIso8601String(),
       'endDate': endDate.toIso8601String(),
     };
   }
-
-  @override
-  List<Object?> get props => [id, category, amount, startDate, endDate];
 }
