@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const { getBudgets, createBudget, deleteBudget } = require('../controllers/budgetController');
-const { protect } = require('../middleware/authMiddleware');
+const { protect } = require('../middlewares/authMiddleware');
 
 router.use(protect);
 
