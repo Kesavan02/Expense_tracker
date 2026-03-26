@@ -25,6 +25,8 @@ app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/transactions', require('./routes/transactionRoutes'));
 app.use('/api/categories', require('./routes/categoryRoutes'));
 app.use('/api/admin', require('./routes/adminRoutes'));
+app.use('/api/budgets', require('./routes/budgetRoutes'));
+
 
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'success', message: 'Server is healthy and running' });
